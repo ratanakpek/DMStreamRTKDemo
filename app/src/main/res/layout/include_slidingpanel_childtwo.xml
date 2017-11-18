@@ -31,7 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="My Fev Songs"
-                android:textColor="@color/md_blue_grey_700"
+                android:textColor="@color/md_green_700"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:text="My Fev Album"
-                android:textColor="@color/md_blue_grey_700"
+                android:textColor="@color/md_green_700"
                 android:textSize="14sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -60,10 +60,10 @@
                 android:layout_centerInParent="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/bg_default_album_art"
-                app:border_color="@color/md_blue_grey_100"
+                app:border_color="@color/md_green_500"
                 app:border_width="20dp"
                 app:shadow="true"
-                app:shadow_color="@color/md_grey_400"
+                app:shadow_color="@color/md_green_400"
                 app:shadow_radius="10" />
 
             <ProgressBar
@@ -81,6 +81,8 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/bottom_control_panel"
             android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
             android:gravity="center_vertical"
             android:orientation="vertical" />
 
@@ -89,6 +91,9 @@
             layout="@layout/include_slidepanelchildtwo_topviewtwo"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
             android:visibility="invisible" />
     </RelativeLayout>
 </RelativeLayout>

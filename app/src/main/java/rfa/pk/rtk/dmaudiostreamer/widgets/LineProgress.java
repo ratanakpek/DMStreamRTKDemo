@@ -39,7 +39,7 @@ public class LineProgress extends View {
         canvas.drawRect(0, 0, this.getWidth(), this.getHeight(), paint);
 
         paint = new Paint();
-        paint.setColor(Color.BLACK);
+        paint.setColor(getResources().getColor(dm.audiostreamer.R.color.md_green_800));
         canvas.drawRect(0, 0, this.progress, this.getHeight(), paint);
     }
 

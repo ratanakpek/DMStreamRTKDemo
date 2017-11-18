@@ -52,8 +52,8 @@ public class AdapterMusic extends BaseAdapter {
         this.musicList = authors;
         this.mContext = context;
         this.inflate = LayoutInflater.from(context);
-        this.colorPlay = ColorStateList.valueOf(context.getResources().getColor(R.color.md_black_1000));
-        this.colorPause = ColorStateList.valueOf(context.getResources().getColor(R.color.md_blue_grey_500_75));
+        this.colorPlay = ColorStateList.valueOf(context.getResources().getColor(R.color.md_green_600));
+        this.colorPause = ColorStateList.valueOf(context.getResources().getColor(R.color.md_green_800));
         this.options = new DisplayImageOptions.Builder()
                 .showImageOnLoading(R.drawable.bg_default_album_art)
                 .showImageForEmptyUri(R.drawable.bg_default_album_art)
