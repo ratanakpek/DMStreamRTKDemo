@@ -94,7 +94,7 @@ public class MusicBrowser {
                 MediaMetaData infoData = new MediaMetaData();
                 JSONObject musicObj = array.getJSONObject(i);
                 infoData.setMediaId(musicObj.optString("id"));
-                infoData.setMediaUrl(musicObj.optString("site") + musicObj.optString("source"));
+                infoData.setMediaUrl(musicObj.optString("site"));
                 infoData.setMediaTitle(musicObj.optString("title"));
                 infoData.setMediaArtist(musicObj.optString("artist"));
                 infoData.setMediaAlbum(musicObj.optString("album"));

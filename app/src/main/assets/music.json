@@ -5,26 +5,12 @@
       "title" : "Hello World",
       "album" : "",
       "artist" : "Khmer History",
-      "genre" : "",
-      "source" : "Jazz_In_Paris.mp3",
+      "source" : "",
       "image" : "album_art.jpg",
       "trackNumber" : 1,
       "totalTrackCount" : 1,
       "duration" : 5,
-      "site" : "http://storage.googleapis.com/automotive-media/"
-    },
-    {
-      "id" : 2,
-      "title" : "Hello World sdfsd sdfs sdf",
-      "album" : "",
-      "artist" : "Khmer History sdfs sdf ",
-      "genre" : "",
-      "source" : "Jazz_In_Paris.mp3",
-      "image" : "album_art.jpg",
-      "trackNumber" : 1,
-      "totalTrackCount" : 1,
-      "duration" : 5,
-      "site" : "http://storage.googleapis.com/automotive-media/"
+      "site" : "http://storage.googleapis.com/automotive-media/Jazz_In_Paris.mp3"
     }
   ]
 }

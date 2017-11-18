@@ -20,6 +20,7 @@ public class MediaMetaData implements Parcelable {
     private String mediaDuration;
     private String mediaArt;
     private int playState;
+    private String shareUrl;
 
     public MediaMetaData() {
     }
@@ -34,6 +35,7 @@ public class MediaMetaData implements Parcelable {
         mediaDuration = in.readString();
         mediaArt = in.readString();
         playState = in.readInt();
+        shareUrl=in.readString();
     }
 
     @Override
@@ -42,11 +44,12 @@ public class MediaMetaData implements Parcelable {
         dest.writeString(mediaUrl);
         dest.writeString(mediaTitle);
         dest.writeString(mediaArtist);
-      //  dest.writeString(mediaAlbum);
+        dest.writeString(mediaAlbum);
         dest.writeString(mediaComposer);
         dest.writeString(mediaDuration);
         dest.writeString(mediaArt);
         dest.writeInt(playState);
+        dest.writeString(shareUrl);
     }
 
     @Override
@@ -136,5 +139,13 @@ public class MediaMetaData implements Parcelable {
 
     public void setPlayState(int playState) {
         this.playState = playState;
+    }
+
+    public String getShareUrl() {
+        return shareUrl;
+    }
+
+    public void setShareUrl(String shareUrl) {
+        this.shareUrl = shareUrl;
     }
 }
