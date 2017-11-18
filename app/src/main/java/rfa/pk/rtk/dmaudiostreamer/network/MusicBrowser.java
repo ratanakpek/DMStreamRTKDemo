@@ -49,7 +49,8 @@ public class MusicBrowser {
             @Override
             protected Void doInBackground(Void... voids) {
                 //resp = getDataResponse();
-                String response = loadJSONFromAsset(context);
+                String response =
+                        loadJSONFromAsset(context);
                 listMusic = getMusicList(response, "music");
                 return null;
             }
