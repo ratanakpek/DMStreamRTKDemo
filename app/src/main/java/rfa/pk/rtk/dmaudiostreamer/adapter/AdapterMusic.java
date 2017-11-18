@@ -33,8 +33,9 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-import dm.audiostreamer.MediaMetaData;
+
 import rfa.pk.rtk.dmaudiostreamer.R;
+import rfa.pk.rtk.dmaudiostreamer.dm.audiostreamer.MediaMetaData;
 
 public class AdapterMusic extends BaseAdapter {
     private List<MediaMetaData> musicList;

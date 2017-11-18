@@ -7,7 +7,8 @@ package rfa.pk.rtk.dmaudiostreamer.network;
 
 import java.util.List;
 
-import dm.audiostreamer.MediaMetaData;
+import rfa.pk.rtk.dmaudiostreamer.dm.audiostreamer.MediaMetaData;
+
 
 public interface MusicLoaderListener {
 

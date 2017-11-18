@@ -34,12 +34,12 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-import dm.audiostreamer.AudioStreamingManager;
-import dm.audiostreamer.CurrentSessionCallback;
-import dm.audiostreamer.Logger;
-import dm.audiostreamer.MediaMetaData;
 import rfa.pk.rtk.dmaudiostreamer.R;
 import rfa.pk.rtk.dmaudiostreamer.adapter.AdapterMusic;
+import rfa.pk.rtk.dmaudiostreamer.dm.audiostreamer.AudioStreamingManager;
+import rfa.pk.rtk.dmaudiostreamer.dm.audiostreamer.CurrentSessionCallback;
+import rfa.pk.rtk.dmaudiostreamer.dm.audiostreamer.Logger;
+import rfa.pk.rtk.dmaudiostreamer.dm.audiostreamer.MediaMetaData;
 import rfa.pk.rtk.dmaudiostreamer.network.MusicBrowser;
 import rfa.pk.rtk.dmaudiostreamer.network.MusicLoaderListener;
 import rfa.pk.rtk.dmaudiostreamer.slidinguppanel.SlidingUpPanelLayout;
@@ -65,7 +65,7 @@ public class MusicActivity extends AppCompatActivity implements CurrentSessionCa
     private TextView time_total_bottom;
     private RelativeLayout pgPlayPauseLayout;
     private LineProgress lineProgress;
-   // private Slider audioPg;
+    // private Slider audioPg;
     private ImageView btn_backward;
     private ImageView btn_forward;
     private TextView text_songName;
@@ -172,7 +172,7 @@ public class MusicActivity extends AppCompatActivity implements CurrentSessionCa
             case PlaybackStateCompat.STATE_STOPPED:
                 pgPlayPauseLayout.setVisibility(View.INVISIBLE);
                 btn_play.Pause();
-              //  audioPg.setValue(0);
+                //  audioPg.setValue(0);
                 if (currentSong != null) {
                     currentSong.setPlayState(PlaybackStateCompat.STATE_NONE);
                     notifyAdapter(currentSong);
@@ -267,9 +267,9 @@ public class MusicActivity extends AppCompatActivity implements CurrentSessionCa
 
     private void showMediaInfo(MediaMetaData media) {
         currentSong = media;
-       // audioPg.setValue(0);
-       // audioPg.setMin(0);
-       // audioPg.setMax(Integer.valueOf(media.getMediaDuration()) * 1000);
+        // audioPg.setValue(0);
+        // audioPg.setMin(0);
+        // audioPg.setMax(Integer.valueOf(media.getMediaDuration()) * 1000);
         setPGTime(0);
         setMaxTime();
         loadSongDetails(media);
@@ -299,7 +299,7 @@ public class MusicActivity extends AppCompatActivity implements CurrentSessionCa
         img_bottom_albArt = (ImageView) findViewById(R.id.img_bottom_albArt);
         btn_backward = (ImageView) findViewById(R.id.btn_backward);
         btn_forward = (ImageView) findViewById(R.id.btn_forward);
-       // audioPg = (Slider) findViewById(R.id.audio_progress_control);
+        // audioPg = (Slider) findViewById(R.id.audio_progress_control);
         pgPlayPauseLayout = (RelativeLayout) findViewById(R.id.pgPlayPauseLayout);
         lineProgress = (LineProgress) findViewById(R.id.lineProgress);
         time_progress_slide = (TextView) findViewById(R.id.slidepanel_time_progress);
@@ -339,8 +339,8 @@ public class MusicActivity extends AppCompatActivity implements CurrentSessionCa
             }
         });
 
-      //  audioPg.setMax(0);
-     //   audioPg.setOnValueChangedListener(this);
+        //  audioPg.setMax(0);
+        //   audioPg.setOnValueChangedListener(this);
 
         mLayout.setPanelSlideListener(new SlidingUpPanelLayout.PanelSlideListener() {
             @Override

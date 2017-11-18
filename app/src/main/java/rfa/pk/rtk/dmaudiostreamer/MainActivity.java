@@ -7,9 +7,10 @@ import android.os.Bundle;
 import java.util.ArrayList;
 import java.util.List;
 
-import dm.audiostreamer.AudioStreamingManager;
-import dm.audiostreamer.CurrentSessionCallback;
-import dm.audiostreamer.MediaMetaData;
+import rfa.pk.rtk.dmaudiostreamer.dm.audiostreamer.AudioStreamingManager;
+import rfa.pk.rtk.dmaudiostreamer.dm.audiostreamer.CurrentSessionCallback;
+import rfa.pk.rtk.dmaudiostreamer.dm.audiostreamer.MediaMetaData;
+
 
 public class MainActivity extends AppCompatActivity implements CurrentSessionCallback {
 

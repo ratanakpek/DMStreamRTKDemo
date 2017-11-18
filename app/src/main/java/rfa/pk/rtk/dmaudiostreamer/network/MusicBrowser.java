@@ -30,7 +30,8 @@ import java.util.List;
 
 import javax.net.ssl.HttpsURLConnection;
 
-import dm.audiostreamer.MediaMetaData;
+import rfa.pk.rtk.dmaudiostreamer.dm.audiostreamer.MediaMetaData;
+
 
 public class MusicBrowser {
 
