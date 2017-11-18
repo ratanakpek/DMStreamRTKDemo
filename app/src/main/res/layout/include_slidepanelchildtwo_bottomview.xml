@@ -94,7 +94,7 @@
             android:paddingTop="15dp"
             android:src="@drawable/ic_rew_dark" />
 
-        <RelativeLayout
+        <!--<RelativeLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1">
@@ -102,7 +102,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                <!-- TODO HAVING ISSUE, IF WE PUT THIS WIDGET OUTSIDE THIS PARENT -->
+                &lt;!&ndash; TODO HAVING ISSUE, IF WE PUT THIS WIDGET OUTSIDE THIS PARENT &ndash;&gt;
                 <rfa.pk.rtk.dmaudiostreamer.widgets.PlayPauseView
                     android:id="@+id/btn_play"
                     android:layout_width="90dp"
@@ -128,7 +128,7 @@
                     android:layout_centerInParent="true" />
             </RelativeLayout>
 
-        </RelativeLayout>
+        </RelativeLayout>-->
 
         <ImageView
             android:id="@+id/btn_forward"
