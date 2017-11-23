@@ -50,8 +50,7 @@ public class MusicBrowser {
             @Override
             protected Void doInBackground(Void... voids) {
                 //resp = getDataResponse();
-                String response =
-                        loadJSONFromAsset(context);
+                String response = loadJSONFromAsset(context);
                 listMusic = getMusicList(response, "music");
                 return null;
             }
@@ -94,7 +93,7 @@ public class MusicBrowser {
                 MediaMetaData infoData = new MediaMetaData();
                 JSONObject musicObj = array.getJSONObject(i);
                 infoData.setMediaId(musicObj.optString("id"));
-                infoData.setMediaUrl(musicObj.optString("site"));
+                infoData.setMediaUrl(musicObj.optString("site") + musicObj.optString("source"));
                 infoData.setMediaTitle(musicObj.optString("title"));
                 infoData.setMediaArtist(musicObj.optString("artist"));
                 infoData.setMediaAlbum(musicObj.optString("album"));

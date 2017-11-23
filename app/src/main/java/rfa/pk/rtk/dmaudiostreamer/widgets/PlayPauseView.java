@@ -28,7 +28,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import rfa.pk.rtk.dmaudiostreamer.R;
+import rfa.pk.rtk.R;
 
 
 @SuppressLint("AppCompatCustomView")

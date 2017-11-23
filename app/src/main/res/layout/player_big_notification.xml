@@ -34,41 +34,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="44dp"
+            android:gravity="center_vertical|center_horizontal"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/player_song_name"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="4dp"
                 android:gravity="top|left"
-                android:singleLine="true"
                 android:text=""
                 android:textColor="#ffffffff"
                 android:textSize="14sp" />
 
-            <TextView
-                android:id="@+id/player_author_name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="1dp"
-                android:singleLine="true"
-                android:text=""
-                android:textColor="@android:color/white"
-                android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/player_albumname"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="1dp"
-                android:singleLine="true"
-                android:text=""
-                android:textColor="@android:color/white"
-                android:textSize="14sp" />
 
         </LinearLayout>
 

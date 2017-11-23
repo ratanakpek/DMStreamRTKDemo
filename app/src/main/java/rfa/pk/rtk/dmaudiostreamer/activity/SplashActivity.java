@@ -13,7 +13,7 @@ import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import rfa.pk.rtk.dmaudiostreamer.R;
+import rfa.pk.rtk.R;
 
 public class SplashActivity extends AppCompatActivity {
 

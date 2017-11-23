@@ -21,7 +21,7 @@ import android.widget.RelativeLayout;
 
 import com.nineoldandroids.view.ViewHelper;
 
-import rfa.pk.rtk.dmaudiostreamer.R;
+import rfa.pk.rtk.R;
 
 
 public class Slider extends CustomView {

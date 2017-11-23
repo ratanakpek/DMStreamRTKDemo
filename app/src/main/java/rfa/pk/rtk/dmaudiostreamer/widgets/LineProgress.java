@@ -12,7 +12,7 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
-import rfa.pk.rtk.dmaudiostreamer.R;
+import rfa.pk.rtk.R;
 
 
 public class LineProgress extends View {

@@ -21,8 +21,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.ImageView;
 
-
-import rfa.pk.rtk.dmaudiostreamer.R;
+import rfa.pk.rtk.R;
 
 
 @SuppressLint("AppCompatCustomView")

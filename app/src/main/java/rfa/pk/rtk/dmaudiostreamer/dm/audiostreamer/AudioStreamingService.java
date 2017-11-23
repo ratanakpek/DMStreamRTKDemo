@@ -27,7 +27,7 @@ import android.widget.RemoteViews;
 
 import com.nostra13.universalimageloader.core.ImageLoader;
 
-import rfa.pk.rtk.dmaudiostreamer.R;
+import rfa.pk.rtk.R;
 
 
 public class AudioStreamingService extends Service implements NotificationManager.NotificationCenterDelegate {
